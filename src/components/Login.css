@@ -1,0 +1,19 @@
+.login-container {
+  background-color: #2e546f;
+}
+
+.login-box {
+  width: 800px;
+  max-width: 100%;
+}
+
+.portal-logo {
+  background-color: white;
+  font-size: 1.8rem;
+  min-width: 250px;
+}
+
+.password-toggle {
+  font-size: 1.2rem;
+}
+
