@@ -1,7 +1,7 @@
 // App.jsx
 import { useState, useEffect } from 'react'
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import ForgotPassword from "./components/ForgotPassword";
 import axios from "axios";
@@ -10,7 +10,6 @@ import Terms from './components/Terms';
 import Signup from "./components/Signup";
 import QuizPage from "./components/QuizPage";
 import QuizResultPage from './components/QuizResultPage';
-import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
 
